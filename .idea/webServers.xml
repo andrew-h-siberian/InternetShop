@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ff67280e-7756-412d-a05f-25ce5b79556d" name="InternetShopDeployment" url="http://anda49.1gb.ru">
+        <fileTransfer host="ftp.anda49.1gb.ru" port="22" rootFolder="/home/virtwww/w_anda49_f521dd56/http" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="7b08710f-dc96-437b-a66c-4b9963d15087" name="1GB IShop Deployment" url="http://anda49.1gb.ru">
+        <fileTransfer host="ftp.anda49.1gb.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

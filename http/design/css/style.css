@@ -1,0 +1,277 @@
+body {
+	background-image:url("../img/bg10x10l.png");
+    color:#484864;
+    font-size:14px;
+    font-family:serif;
+    line-height: 16px;
+    margin:0;
+    padding:0;
+}
+
+div {
+	/*border: 1px dotted grey; /*для отладки*/
+}
+
+#TEST {
+	border: 1px dotted grey; /*для отладки*/
+	background-color: #eeeeff;
+	color: black;
+	text-decoration-color: black;
+	float:left;
+    width:200px;
+    height: 100px;
+}
+
+#container_shadow {
+	margin: 12px;
+	background-color: #ddddee;
+	border: 2px solid #dfefef;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px #262626;
+	margin-bottom: 20px;
+	padding: 8px;
+	/*TODO (DONE) разобраться с высотой!*/
+	overflow:hidden;
+	min-height:330px;
+	max-width:1130px;
+	min-width:848px;
+	/*height: 100%;/*
+	height: auto;/**/
+}
+
+.middle {
+	float: left;
+	border-radius: 6px;
+	margin-left: 6px;
+	padding: 0px;
+	min-width: 824px;
+	/*background-color: #efefff;/*для отладки*/
+}
+
+.left_menu {
+	width: 176px;
+	height: 100%;
+	float: left;
+	border: 1px solid #e8e8ee;
+	border-radius: 6px;
+	background-color:#d8d8ee;
+	padding: 8px 8px 8px 8px;
+	height: auto;
+	margin-right: 6px;
+}
+
+.main_content {
+	margin-left: ;
+	float: left;
+	max-width: 634px;	
+	/*background-color: yellow;/*для отладки*/
+}
+
+.cats_edit {
+	/*border: 1px dotted grey; /*для отладки*/
+	width:100%;
+	height: auto;
+	float:left;
+	width:100%;
+	height:auto;
+	margin: 0px 0px;	
+}
+
+
+.footer {
+}
+
+.product_card {
+	position:relative;
+	width: 128px;
+	border-radius: 6px;
+	/*min-height: 260px;*/
+	height: 340px;
+	border: 1px solid #eeeeff;
+	float: left;
+	margin-left: 0px;
+	margin-right: 4px;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	padding: 2px 12px 2px 6px;
+}
+
+.buy_button {
+	position: absolute;
+	bottom: 8px;
+	background-color: red;
+	border-radius: 6px;
+	width: 116px;
+	height: 20px;
+	padding: 6px 6px 2px 12px;
+	color: #fbdd66;
+	font-weight: bold;
+}
+
+.warning {
+	color: red;
+	text-align: center;
+	background-color:#f8c8de;
+	border-radius: 6px;
+	float:left;
+    width:100%;
+    height:auto;
+}
+
+/* 2DEL
+h1 {
+   padding:20px;
+   margin-top:20px; 
+}*/
+
+.mc_inner_block {
+    float:left;
+    height:auto;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+p {
+    word-wrap: normal;
+}
+
+.cat_menu {
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+}
+
+/* old version
+.bg {
+	background-image: url("../../design/img/bg10x10l.png");
+    /background-image:url(design/img/bg10x10l.png);/
+    background-repeat:no-repeat;
+    background-size:contain;
+    position:absolute;
+    z-index: -1;
+    width:100%;
+    top:0;
+    left:0;
+    /height:1024px;/
+    height: 440px;
+    opacity: 0.4;
+}
+*/
+
+/*было в примере, не используется (2DEL)
+.content {
+    max-width:1024px;
+    width:100%;
+    min-height:380px;
+    background-color:rgba(255,255,255,0.9);
+    margin:0 auto;
+    padding:20px;
+}*/
+
+
+img {
+    /*width:100%;*/
+    height:auto;
+}
+
+.log_form {
+	border: 1px solid #e8e8ee;
+	border-radius: 6px;
+	background-color:#d8d8ee;
+	padding: 6px 6px 6px 6px;
+	float:right;
+    /*width:100%;*/
+	width: 340px;
+    height:auto;
+}
+
+#success {
+	background-color: #ccdddd;
+	color: green;
+}
+
+.menu {
+    float:left;
+    width:100%;
+    margin-bottom: 2px;
+    height:72px;
+}
+
+/* old variant of menu
+.menu_content {
+    height:100%;
+    margin:0 auto;
+    max-width:1200px;
+    width:100%;
+}*/
+
+.logo {
+    background-image:url('../img/logo_64x64.png');
+    width:64px;
+    height:64px;
+    margin:2px 8px;
+    float:left;
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.menu_spacer {
+	width: 108px;
+    height: 64px;
+    margin-top: 2px;
+    margin-right: 14px;
+    float:left;
+}
+
+.menu_item_container {
+    font-size:19px;
+    /*float:right;*/
+    float:left;
+    width:118px;
+    margin:20px 4px;
+    height:30px;
+    position:relative;
+}
+
+.menu_item {
+	border-radius: 6px;
+	background-color:#d8d8ee;
+    width:118px;
+    height:32px;
+    overflow:hidden;
+    top:0;
+    position:absolute;
+    left: 0;
+}
+
+.menu_item:hover {
+    height:auto;
+    /*background-color:#fff;*/
+    background-color:#e8e8f8;
+    position:absolute;
+}
+
+.menu_subitem {
+	/*TODO*/
+}
+
+.menu_item p {
+    margin:0;
+    padding:0 10px;
+    line-height:30px;
+}
+
+.menu_item a {
+    color:#778;
+    text-decoration: none;
+}
+
+.menu_item a:hover {
+    color:#2060d0 !important;
+    text-shadow: 0px 0px 8px #8888a8;    
+}
+
+.menu_item {
+	/*TODO*/
+}
